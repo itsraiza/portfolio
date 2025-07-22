@@ -536,7 +536,7 @@ footer {
     width: 50vw;
     height: 100vh;
     background: #0B0F24;
-    clip-path: circle(100px at 90% -16%);
+    clip-path: circle(0px at 90% -16%);
     transition: 1s ease-out;
     flex-direction: column;
     justify-content: space-evenly;
