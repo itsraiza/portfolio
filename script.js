@@ -3,6 +3,7 @@ const nav = document.querySelector(".nav");
 
 hamburger.addEventListener("click", () => 
 nav.classList.toggle("active"));
+document.body.classList.toggle("no-scroll");
 
 function enviarWhats(event) {
     event.preventDefault()
