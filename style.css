@@ -546,10 +546,6 @@ footer {
     z-index: 1000;
   }
 
-  .no-scroll {
-  overflow: hidden;
-  }
-
   .nav-list a {
     font-size: 24px;
     opacity: 0;
