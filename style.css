@@ -521,7 +521,6 @@ footer {
   }
 
   .nav {
-    margin-inline: 20px;
     margin-right: 30px;
   }
 
@@ -536,7 +535,7 @@ footer {
     width: 50vw;
     height: 100vh;
     background: #0B0F24;
-    clip-path: circle(0px at 100% 0%);
+    clip-path: circle(100px at 90% -16%);
     transition: 1s ease-out;
     flex-direction: column;
     justify-content: space-evenly;
@@ -573,10 +572,9 @@ footer {
 
   /*estilização ativa*/
   .nav.active .nav-list {
-    clip-path: circle(150% at 100% 0%);
-    /*clip-path: circle(1500px at 90% -16%);*/
+    clip-path: circle(1500px at 90% -16%);
     pointer-events: all;
-  }
+  } 
   
   .nav.active .nav-list a {
     opacity: 1;
@@ -613,6 +611,11 @@ footer {
   .btn-logos {
     justify-content: center;
     align-items: center;
+  }
+
+  .avatar {
+  width: 350px;
+  margin-left: 10px;
   }
   
   .sobre {
