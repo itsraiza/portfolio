@@ -86,6 +86,7 @@ body {
 
 .inicio-container h1{
   margin-bottom: 20px;
+  font-size: 39px;
   color: #4FC1E9;
   flex-wrap: wrap;
 }
