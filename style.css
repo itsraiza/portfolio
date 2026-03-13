@@ -6,11 +6,11 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #F9F9F9;
-  background: linear-gradient(to right, #0F193E, #224C8E);
+  background-color: #030303;
 }
 
 .header {
-  background-color:#0B0F24;
+  background-color: #030303;
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -47,7 +47,7 @@ body {
 }
 
 .nav-list a:hover {
-  color: #4FC1E9;
+  color: #0A84FF;
 }
 
 .hamburger {
@@ -80,15 +80,21 @@ body {
 .inicio-container {
   max-width: 700px;
   font-size: x-large;
-  color: #B0B8D1;
+  color: #f9f9f9;
   letter-spacing: 5px;
 }
 
 .inicio-container h1{
   margin-bottom: 20px;
   font-size: 38px;
-  color: #4FC1E9;
+  font-weight: bold;
+  color: #F9F9F9;
   flex-wrap: wrap;
+}
+
+.key {
+  color: #0A84FF;
+  font-weight: bold;
 }
 
 .inicio-botao {
@@ -97,7 +103,7 @@ body {
   margin-top: 1rem;
   padding: 15px;
   font-size: small;
-  border: 2px solid #4FC1E9;
+  border: 2px solid #0A84FF;
   color: #F9F9F9;
   text-decoration: none;
   font-weight: bold;
@@ -111,7 +117,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #4FC1E9;
+  background-color: #0A84FF;
   width: 0%;
   height: 100%;
   display: block;
@@ -148,7 +154,7 @@ body {
 .logos:hover{
   width: 35px;
   height: 35px;
-  box-shadow: 0 8px 16px rgba(32, 84, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(11, 68, 255, 0.3);
   border-radius: 20px;
   transform: scale(1.05); /* aumenta levemente */
   transition: all 0.3s ease;
@@ -167,7 +173,7 @@ body {
 }
 
 .avatar {
-  width: 400px;
+  width: 450px;
   margin-left: 10px;
 }
 
@@ -175,7 +181,7 @@ body {
   font-size: 2rem;
   padding-left: 5px;
   margin: 40px 80px;
-  border-left: 4px solid #4FC1E9;
+  border-left: 4px solid #0A84FF;
   color: #F9F9F9;
 }
 
@@ -187,7 +193,7 @@ body {
   flex-wrap: wrap;
   max-width: 100%;
   text-align: justify;
-  color: #B0B8D1;
+  color: #F9F9F9;
   padding: 20px;
   gap: 10px;
   letter-spacing: 5px;
@@ -201,7 +207,7 @@ body {
   align-items: center;
   padding: 1.5rem 2rem;
   border-radius: 20px;
-  border: 2px solid #4FC1E9;
+  border: 2px solid #0A84FF;
   background-color: rgba(255, 255, 255, 0.05);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
   max-width: 800px;
@@ -212,7 +218,7 @@ body {
   display: inline-block;
   margin-top: 1rem;
   padding: 15px;
-  border: 2px solid #4FC1E9;
+  border: 2px solid #0A84FF;
   color: #F9F9F9;
   text-decoration: none;
   font-weight: bold;
@@ -226,7 +232,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #4FC1E9;
+  background-color: #0A84FF;
   width: 0%;
   height: 100%;
   display: block;
@@ -248,7 +254,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  color: #B0B8D1;
+  color: #F9F9F9;
   letter-spacing: 0.5px;
   max-width: 1200px;
   margin: 0 auto;
@@ -259,7 +265,7 @@ body {
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.05);
   text-align: center;
-  border: 2px solid #4FC1E9;
+  border: 2px solid #0A84FF;
   border-radius: 20px;
   transition: transform 0.3s ease;
   cursor: pointer;
@@ -284,14 +290,14 @@ body {
 .habilidade p {
   font-size: 0.85rem;
   line-height: 1.4;
-  color: #B0B8D1;
+  color: #F9F9F9;
 }
 
 .habilidades h2,
 .projetos h2 {
   text-align: left !important;
   padding-left: 5px;
-  border-left: 4px solid #4FC1E9;
+  border-left: 4px solid #0A84FF;
   color: #F9F9F9;
   font-size: 2rem;
   max-width: 1200px;
@@ -307,7 +313,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 30px;
-  color: #B0B8D1;
+  color: #F9F9F9;
   letter-spacing: 0.5px;
   max-width: 1200px;
   margin: 0 auto;
@@ -318,7 +324,7 @@ body {
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.05);
   text-align: center;
-  border: 2px solid #4FC1E9;
+  border: 2px solid #0A84FF;
   border-radius: 20px;
   transition: transform 0.3s ease;
   cursor: pointer;
@@ -344,15 +350,15 @@ body {
 .projeto p {
   font-size: 0.85rem;
   line-height: 1.4;
-  color: #B0B8D1;
+  color: #F9F9F9;
 }
 
 .projeto a {
   display: inline-block;
   margin-top: 20px;
   padding: 0.5rem 1rem;
-  background-color: #4FC1E9;
-  color: #0F193E;
+  background-color: #0A84FF;
+  color: #F9F9F9;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -360,7 +366,7 @@ body {
 }
 
 .projeto a:hover {
-  background-color: #3aaccd;
+  background-color: #004d99;
   transform: scale(1.05);
 }
 
@@ -407,7 +413,7 @@ body {
   padding: 5px;
   font-size: 2rem;
   margin-bottom: 50px;
-  border-left: 4px solid #4FC1E9;
+  border-left: 4px solid #0A84FF;
   letter-spacing: 5px;
 }
 
@@ -418,7 +424,7 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(5px);
   padding: 2rem;
-  border: 2px solid #4FC1E9;
+  border: 2px solid #0A84FF;
   border-radius: 16px;
 
 }
@@ -428,14 +434,14 @@ body {
   padding: 1rem 0.5rem;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  border: 1px solid #0F193E;
+  border: 1px solid #0A84FF;
   color: #F9F9F9;
   outline: none;
 }
 
 .campo-form:focus {
-  border-color: #4FC1E9;
-  box-shadow: 0 8px 16px rgba(32, 84, 255, 0.3);
+  border-color: #0A84FF;
+  box-shadow: 0 8px 16px rgba(4, 62, 252, 0.14);
 }
 
 .grupo-form {
@@ -444,7 +450,7 @@ body {
 
 .botao-form {
   color: #F9F9F9;
-  background-color: #4FC1E9;
+  background-color: #0A84FF;
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
@@ -456,11 +462,12 @@ body {
 
 .botao-form:hover {
    transform: translateY(-4);
-   box-shadow: 0 8px 16px rgba(32, 84, 255, 0.3);
+   box-shadow: 0 8px 16px rgba(4, 62, 252, 0.14);
 }
 
 footer {
-  background-color: #0B0F24;
+  background-color: #030303;
+ 
 }
 
 .footer {
@@ -493,7 +500,7 @@ footer {
 }
 
 .container-links a:hover {
-  color: #4FC1E9;
+  color: #0A84FF;
 }
 
 .container-contact {
@@ -534,7 +541,7 @@ footer {
     right: 0;
     width: 50vw;
     height: 100vh;
-    background: #0B0F24;
+    background: #030303;
     clip-path: circle(100px at 90% -16%);
     transition: 1s ease-out;
     flex-direction: column;
@@ -676,4 +683,15 @@ footer {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-8px); }
   100% { transform: translateY(0); }
+}
+
+.reveal{
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.active{
+  opacity: 1;
+  transform: translateY(0);
 }

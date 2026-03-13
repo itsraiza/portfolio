@@ -1,204 +1,325 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <nav class="nav">
-      <a href="#inicio" class="logo">Raiza.</a>
-      <button class="hamburger"></button>
-      <ul class="nav-list">
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="inicio" id="inicio">
-      <div class="inicio-container">
-        <h1>Olá! Meu nome é Raiza e eu sou desenvolvedora fullstack</h1>
-        <p>tenho experiência em HTML, CSS, JavaScript, React, Node.js e Mysql. Transformo ideias em soluções funcionais e bem estruturadas, com foco em performance, acessibilidade e boas práticas de desenvolvimento. <br>Vamos conversar?</p>
-        <a href="#me-contate" class="inicio-botao">Me contate</a>
-        <a href="assets/RaizaSousa_CV (1).pdf" download="Raiza-CV-2025.pdf" class="inicio-botao">Download CV</a>
-        <h3 class="social">Acesse minhas redes:</h3>
-        <div class="btn-logos">
-          <a href="https://github.com/itsraiza" target="_blank">
-            <img class="logos" src="assets/icon_github.png" alt="Logo GitHub">
-          </a>
-          <a href="https://www.linkedin.com/in/raizasousa" target="_blank">
-            <img class="logos" src="assets/icon_linkedin.png" alt="Logo linkedin">
-          </a>
-          <a href="https://www.instagram.com/euraizads/" target="_blank">
-            <img class="logos" src="assets/icon_instagram.png" alt="Logo instagram">
-          </a>
-        </div>
-      </div>
-      <img class="avatar" src="assets/avatar_iza.png" alt="avatar_raiza">
-    </section>
-
-    <section class="sobre" id="sobre">
-      <h2>Sobre mim</h2>
-      <div class="sobre-container">
-        <div class="sobre-texto">
-          <p>Olá! Eu me chamo Raiza, sou estudante de Análise e Desenvolvimento de Sistemas, apaixonada por tecnologia e sempre em busca de novos desafios. Atuo como desenvolvedora fullstack, com foco em criar aplicações modernas, acessíveis e bem estruturadas. Tenho experiência prática com Front-end em HTML, CSS, JavaScript e React, com Back-end em Node.js e MySQL. tenho familiaridade com controle de versão usando Git e GitHub. Já desenvolvi projetos completos, do layout ao banco de dados, passando por autenticação com JWT, criação de APIs RESTful e interfaces responsivas. Estou constantemente aprimorando o que já sei e buscando aprender novas tecnologias, com o objetivo de evoluir como profissional e entregar soluções cada vez melhores. Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas reais e é isso que me motiva todos os dias.
-          </p>
-            <a href="assets/RSOUSA_CV.pdf" download="Raiza-CV-2025.pdf" class="sobre-botao">Download CV</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="habilidades">
-      <div class="habilidades">
-       <h2>Habilidades</h2>
-        <div class="container">
-          <div class="habilidade">
-            <img class="image" src="assets/logo_html.png" alt="Logo HTML">
-            <h3>HTML</h3>
-            <p>Estruturação de páginas web com semântica e acessibilidade.</p>
-          </div>
-          <div class="habilidade">
-            <img class="image" src="assets/logo_css.png" alt="Logo CSS">
-            <h3>CSS</h3>
-            <p>Estilização moderna com foco em responsividade e animações.</p>
-          </div>
-          <div class="habilidade">
-            <img class="image" src="assets/logo_javascript.png" alt="Logo JavaScript">
-            <h3>JavaScript</h3>
-            <p>Interatividade, lógica de programação e consumo de APIs.</p>
-          </div>
-          <div class="habilidade">
-            <img class="image" src="assets/logo_react.png" alt="Logo React">
-            <h3>React</h3>
-            <p>Criação de interfaces dinâmicas com componentes reutilizáveis.</p>
-          </div>
-          <div class="habilidade">
-            <img class="image" src="assets/logo_node.js.png" alt="Logo Node.js">
-            <h3>Node.js</h3>
-            <p>Desenvolvimento de APIs e aplicações back-end com JavaScript.</p>
-          </div>
-          <div class="habilidade">
-            <img class="image" src="assets/logo_mysql.png" alt="Logo Mysql">
-            <h3>Mysql</h3>
-            <p>Gerenciamento eficiente de dados relacionais com consultas otimizadas.</p>
-          </div>
-          <div class="habilidade">
-            <img class="image" src="assets/logo_github.png" alt="Logo GitHub">
-            <h3>GitHub</h3>
-            <p>Controle de versão, colaboração e hospedagem de projetos com Git.</p>
-          </div>
-          <div class="habilidade">
-            <img class="image" src="assets/logo_figma.png" alt="Logo Figma">
-            <h3>Figma</h3>
-            <p>Design de interfaces intuitivas com foco em usabilidade e prototipação.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projetos">
-      <div class="projetos">
-        <h2>Projetos</h2>
-          <div class="container-projects">
-            <div class="projeto">
-              <img src="assets/digitalstore.png" alt="projeto 1">
-              <h3>Digital Store</h3>
-              <p>A Digital Store é um projeto de e-commerce moderno e responsivo, desenvolvido com React.js e vite e estilizado com Tailwind CSS, focado em performance, design limpo e acessibilidade. A aplicação simula uma loja online com produtos organizados por categorias, carrinho de compras, e navegação fluida.</p>
-              <div class="tec">
-                <img src="assets/logo_react.png" alt="logo react">
-                <img src="assets/logo_tailwindcss.png" alt="logo Tailwind">
-                <img src="assets/logo_vite.png" alt="logo vite">
-              </div>
-              <a href="https://github.com/itsraiza/DigitalStore" target="_blank">Acessar Repositório</a>
-              <a href="https://digital-store-murex.vercel.app/" target="_blank">Ver Projeto</a>
-            </div>
-            <div class="projeto">
-              <img src="assets/rscell.png" alt="projeto 2">
-              <h3>RSCELL</h3>
-              <p>O RSCell é um site institucional desenvolvido para representar um pequeno negócio real de assistência técnica em celulares. O projeto foi criado com o objetivo de aplicar conhecimentos em HTML, CSS e JavaScript, focando na construção de uma interface responsiva, clara e funcional.</p>
-              <div class="tec">
-                <img src="assets/logo_html.png" alt="logo html">
-                <img src="assets/logo_css.png" alt="logo css">
-                <img src="assets/logo_javascript.png" alt="logo javascript">
-              </div>
-              <a href="https://github.com/itsraiza/RSCELL" target="_blank">Acessar Repositório</a>
-              <a href="https://itsraiza.github.io/RSCELL/" target="_blank">Ver Projeto</a>
-            </div>
-            <div class="projeto">
-              <img src="assets/pjbackend-img.png" alt="projeto 3">
-              <h3>Projeto Back-end</h3>
-              <p>uma aplicação back-end desenvolvida com foco em gerenciamento completo de usuários, categorias e produtos, utilizando autenticação segura com JWT (JSON Web Token). Essa API foi construída com tecnologias modernas e robustas, garantindo escalabilidade, segurança e facilidade de manutenção.</p>
-              <div class="tec">
-                <img src="assets/logo_node.js.png" alt="logo Node.js">
-                <img src="assets/logo_jwt.png" alt="logo JWT">
-                <img src="assets/logo_mysql.png" alt="logo Mysql">
-              </div>
-              <a href="https://github.com/itsraiza/ProjetoBackend" target="_blank">Acessar Repositório</a>
-            </div>
-          </div>
-      </div>
-    </section>
-
-    <section id="me-contate" class="contatos">
-      <h2 class="contatos-titulo">Entre em Contato</h2>
-      <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-        <div class="grupo-form">
-          <input placeholder="Nome" class="campo-form" id="nome">
-        </div>
-        <div class="grupo-form">
-          <textarea class="campo-form" placeholder="Digite uma mensagem" rows="6" id="mensagem"></textarea>
-        </div>
-        <button type="submit" class="botao-form">Enviar WhatsApp</button>
-      </form>
-
-    </section>
-
-  </main>
-
-  <footer>
-    <section id="contato">
-      <div class="footer">
-        <div class="container-footer">
-          <h2 class="logo">Raiza.</h2>
-          <p>Sou uma desenvolvedora apaixonada por transformar ideias em soluções acessíveis, com criatividade, código limpo e o coração sempre aberto pra aprender e inovar.</p>
-        </div>
-        <div>
-          <ul class="container-links">
-            <h2>Menu</h2>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+      <header class="header">
+        <nav class="nav">
+          <a href="#inicio" class="logo">Raiza.</a>
+          <button class="hamburger"></button>
+          <ul class="nav-list">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobre">Sobre mim</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
+        </nav>
+      </header>
+
+    <main>
+      <section class="inicio" id="inicio">
+        <div class="inicio-container reveal">
+          <h1>
+            Olá! Meu nome é Raiza e eu sou
+            <span class="key">Desenvolvedora Fullstack</span>
+          </h1>
+          <p>
+            tenho experiência em HTML, CSS, JavaScript, React, Node.js e Mysql.
+            Transformo ideias em soluções funcionais e bem estruturadas, com
+            foco em performance, acessibilidade e boas práticas de
+            desenvolvimento. <br />Vamos conversar?
+          </p>
+          <a href="#me-contate" class="inicio-botao">Me contate</a>
+          <a
+            href="assets/RaizaSousa_CV (1).pdf"
+            download="Raiza-CV-2025.pdf"
+            class="inicio-botao"
+            >Download CV</a
+          >
+          <h3 class="social">Acesse minhas redes:</h3>
+          <div class="btn-logos">
+            <a href="https://github.com/itsraiza" target="_blank">
+              <img
+                class="logos"
+                src="assets/icon_github.png"
+                alt="Logo GitHub"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/raizasousa" target="_blank">
+              <img
+                class="logos"
+                src="assets/icon_linkedin.png"
+                alt="Logo linkedin"
+              />
+            </a>
+            <a href="https://www.instagram.com/euraizads/" target="_blank">
+              <img
+                class="logos"
+                src="assets/icon_instagram.png"
+                alt="Logo instagram"
+              />
+            </a>
+          </div>
         </div>
-        <div class="container-contact">
+        <img class="avatar reveal" src="assets/avatar_raiza.png" alt="avatar_raiza" />
+      </section>
+
+      <section class="sobre reveal" id="sobre">
+        <h2>Sobre mim</h2>
+        <div class="sobre-container">
+          <div class="sobre-texto">
+            <p>
+              Olá! Eu me chamo Raiza, sou estudante de Análise e Desenvolvimento
+              de Sistemas, apaixonada por tecnologia e sempre em busca de novos
+              desafios. Atuo como desenvolvedora fullstack, com foco em criar
+              aplicações modernas, acessíveis e bem estruturadas. Tenho
+              experiência prática com Front-end em HTML, CSS, JavaScript e
+              React, com Back-end em Node.js e MySQL. tenho familiaridade com
+              controle de versão usando Git e GitHub. Já desenvolvi projetos
+              completos, do layout ao banco de dados, passando por autenticação
+              com JWT, criação de APIs RESTful e interfaces responsivas. Estou
+              constantemente aprimorando o que já sei e buscando aprender novas
+              tecnologias, com o objetivo de evoluir como profissional e
+              entregar soluções cada vez melhores. Acredito que a tecnologia é
+              uma ferramenta poderosa para resolver problemas reais e é isso que
+              me motiva todos os dias.
+            </p>
+            <a
+              href="assets/RSOUSA_CV.pdf"
+              download="Raiza-CV-2025.pdf"
+              class="sobre-botao"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <div class="habilidades reveal">
+          <h2>Habilidades</h2>
+          <div class="container">
+            <div class="habilidade reveal">
+              <img class="image" src="assets/logo_html.png" alt="Logo HTML" />
+              <h3>HTML</h3>
+              <p>Estruturação de páginas web com semântica e acessibilidade.</p>
+            </div>
+            <div class="habilidade reveal">
+              <img class="image" src="assets/logo_css.png" alt="Logo CSS" />
+              <h3>CSS</h3>
+              <p>Estilização moderna com foco em responsividade e animações.</p>
+            </div>
+            <div class="habilidade reveal">
+              <img
+                class="image"
+                src="assets/logo_javascript.png"
+                alt="Logo JavaScript"
+              />
+              <h3>JavaScript</h3>
+              <p>Interatividade, lógica de programação e consumo de APIs.</p>
+            </div>
+            <div class="habilidade reveal">
+              <img class="image" src="assets/logo_react.png" alt="Logo React" />
+              <h3>React</h3>
+              <p>
+                Criação de interfaces dinâmicas com componentes reutilizáveis.
+              </p>
+            </div>
+            <div class="habilidade reveal">
+              <img
+                class="image"
+                src="assets/logo_node.js.png"
+                alt="Logo Node.js"
+              />
+              <h3>Node.js</h3>
+              <p>
+                Desenvolvimento de APIs e aplicações back-end com JavaScript.
+              </p>
+            </div>
+            <div class="habilidade reveal">
+              <img class="image" src="assets/logo_mysql.png" alt="Logo Mysql" />
+              <h3>Mysql</h3>
+              <p>
+                Gerenciamento eficiente de dados relacionais com consultas
+                otimizadas.
+              </p>
+            </div>
+            <div class="habilidade reveal">
+              <img
+                class="image"
+                src="assets/logo_github.png"
+                alt="Logo GitHub"
+              />
+              <h3>GitHub</h3>
+              <p>
+                Controle de versão, colaboração e hospedagem de projetos com
+                Git.
+              </p>
+            </div>
+            <div class="habilidade reveal">
+              <img class="image" src="assets/logo_figma.png" alt="Logo Figma" />
+              <h3>Figma</h3>
+              <p>
+                Design de interfaces intuitivas com foco em usabilidade e
+                prototipação.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <div class="projetos reveal">
+          <h2>Projetos</h2>
+          <div class="container-projects">
+            <div class="projeto reveal">
+              <img src="assets/digitalstore.png" alt="projeto 1" />
+              <h3>Digital Store</h3>
+              <p>
+                A Digital Store é um projeto de e-commerce moderno e responsivo,
+                desenvolvido com React.js e vite e estilizado com Tailwind CSS,
+                focado em performance, design limpo e acessibilidade. A
+                aplicação simula uma loja online com produtos organizados por
+                categorias, carrinho de compras, e navegação fluida.
+              </p>
+              <div class="tec">
+                <img src="assets/logo_react.png" alt="logo react" />
+                <img src="assets/logo_tailwindcss.png" alt="logo Tailwind" />
+                <img src="assets/logo_vite.png" alt="logo vite" />
+              </div>
+              <a href="https://github.com/itsraiza/DigitalStore" target="_blank"
+                >Acessar Repositório</a
+              >
+              <a href="https://digital-store-murex.vercel.app/" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+            <div class="projeto reveal">
+              <img src="assets/rscell.png" alt="projeto 2" />
+              <h3>RSCELL</h3>
+              <p>
+                O RSCell é um site institucional desenvolvido para representar
+                um pequeno negócio real de assistência técnica em celulares. O
+                projeto foi criado com o objetivo de aplicar conhecimentos em
+                HTML, CSS e JavaScript, focando na construção de uma interface
+                responsiva, clara e funcional.
+              </p>
+              <div class="tec">
+                <img src="assets/logo_html.png" alt="logo html" />
+                <img src="assets/logo_css.png" alt="logo css" />
+                <img src="assets/logo_javascript.png" alt="logo javascript" />
+              </div>
+              <a href="https://github.com/itsraiza/RSCELL" target="_blank"
+                >Acessar Repositório</a
+              >
+              <a href="https://itsraiza.github.io/RSCELL/" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+            <div class="projeto reveal">
+              <img src="assets/pjbackend-img.png" alt="projeto 3" />
+              <h3>Projeto Back-end</h3>
+              <p>
+                uma aplicação back-end desenvolvida com foco em gerenciamento
+                completo de usuários, categorias e produtos, utilizando
+                autenticação segura com JWT (JSON Web Token). Essa API foi
+                construída com tecnologias modernas e robustas, garantindo
+                escalabilidade, segurança e facilidade de manutenção.
+              </p>
+              <div class="tec">
+                <img src="assets/logo_node.js.png" alt="logo Node.js" />
+                <img src="assets/logo_jwt.png" alt="logo JWT" />
+                <img src="assets/logo_mysql.png" alt="logo Mysql" />
+              </div>
+              <a
+                href="https://github.com/itsraiza/ProjetoBackend"
+                target="_blank"
+                >Acessar Repositório</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="me-contate" class="contatos reveal">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form
+          class="formulario-contato"
+          id="formulario"
+          onsubmit="enviarWhats(event)"
+        >
+          <div class="grupo-form">
+            <input placeholder="Nome" class="campo-form" id="nome" />
+          </div>
+          <div class="grupo-form">
+            <textarea
+              class="campo-form"
+              placeholder="Digite uma mensagem"
+              rows="6"
+              id="mensagem"
+            ></textarea>
+          </div>
+          <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <section id="contato">
+        <div class="footer reveal">
+          <div class="container-footer">
+            <h2 class="logo">Raiza.</h2>
+            <p>
+              Sou uma desenvolvedora apaixonada por transformar ideias em
+              soluções acessíveis, com criatividade, código limpo e o coração
+              sempre aberto pra aprender e inovar.
+            </p>
+          </div>
+          <div>
+            <ul class="container-links">
+              <h2>Menu</h2>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="container-contact">
             <h2>Contato</h2>
             <div class="container-logos">
               <a href="https://github.com/itsraiza" target="_blank">
-                <img class="logos" src="assets/icon_github.png" alt="Logo GitHub">
+                <img
+                  class="logos"
+                  src="assets/icon_github.png"
+                  alt="Logo GitHub"
+                />
               </a>
               <a href="https://www.linkedin.com/in/raizasousa" target="_blank">
-                <img class="logos" src="assets/icon_linkedin.png" alt="Logo linkedin">
+                <img
+                  class="logos"
+                  src="assets/icon_linkedin.png"
+                  alt="Logo linkedin"
+                />
               </a>
               <a href="https://www.instagram.com/euraizads/" target="_blank">
-                <img class="logos" src="assets/icon_instagram.png" alt="Logo instagram">
+                <img
+                  class="logos"
+                  src="assets/icon_instagram.png"
+                  alt="Logo instagram"
+                />
               </a>
             </div>
+          </div>
         </div>
-      </div>
-      <div class="creditos">
-        &copy; 2025 Desenvolvido por Raiza Kelly
-      </div>
-    </section>
-  </footer>
-  <script src="script.js"></script>
-</body>
+        <div class="creditos">&copy; 2025 Desenvolvido por Raiza Kelly</div>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
